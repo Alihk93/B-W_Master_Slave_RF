@@ -1,0 +1,7 @@
+#!/bin/sh
+# pre-push: refresh the dashboard sync file from git/gh before pushing. Never blocks the push.
+if [ -f scripts/sync-dashboard.mjs ]; then
+  printf '→ Updating dashboard sync file…\n'
+  npm run --silent sync || printf '  (dashboard sync skipped — your push continues)\n'
+fi
+exit 0

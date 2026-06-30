@@ -1,0 +1,11 @@
+{
+  "name": "iot-pm-dashboard-sync",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Write per-project pm-sync.json from git/gh for the IoT Project Command Center dashboard.",
+  "scripts": {
+    "sync": "node scripts/sync-dashboard.mjs",
+    "hook:install": "node scripts/install-hook.mjs"
+  }
+}

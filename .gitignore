@@ -1,3 +1,14 @@
+# --- KiCad transient / editor-local files (do not commit) ---
+*.lck
+~*.lck
+_autosave-*
+\#auto_saved_files\#
+*-backups/
+*.kicad_prl
+*-bak
+*.kicad_sch-bak
+fp-info-cache
+
 # Prerequisites
 *.d
 

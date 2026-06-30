@@ -566,149 +566,7 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "+3V3": [
-        "Power"
-      ],
-      "+5V": [
-        "Power"
-      ],
-      "/A0": [
-        "Signal"
-      ],
-      "/A1": [
-        "Signal"
-      ],
-      "/A3": [
-        "Signal"
-      ],
-      "/A4": [
-        "Signal"
-      ],
-      "/A5": [
-        "Signal"
-      ],
-      "/A6": [
-        "Signal"
-      ],
-      "/A7": [
-        "Signal"
-      ],
-      "/AREF": [
-        "Signal"
-      ],
-      "/CBUS0": [
-        "Signal"
-      ],
-      "/CBUS1": [
-        "Signal"
-      ],
-      "/CC1": [
-        "Signal"
-      ],
-      "/CC2": [
-        "Signal"
-      ],
-      "/D+": [
-        "Signal"
-      ],
-      "/D-": [
-        "Signal"
-      ],
-      "/D10": [
-        "Signal"
-      ],
-      "/D11{slash}MOSI": [
-        "Signal"
-      ],
-      "/D12{slash}MISO": [
-        "Signal"
-      ],
-      "/D13{slash}SCK": [
-        "Signal"
-      ],
-      "/D2": [
-        "Signal"
-      ],
-      "/D3": [
-        "Signal"
-      ],
-      "/D4": [
-        "Signal"
-      ],
-      "/D5": [
-        "Signal"
-      ],
-      "/D6": [
-        "Signal"
-      ],
-      "/D7": [
-        "Signal"
-      ],
-      "/D8": [
-        "Signal"
-      ],
-      "/D9": [
-        "Signal"
-      ],
-      "/RTS": [
-        "Signal"
-      ],
-      "/RXD": [
-        "Signal"
-      ],
-      "/RXD0": [
-        "Signal"
-      ],
-      "/TXD": [
-        "Signal"
-      ],
-      "/TXD0": [
-        "Signal"
-      ],
-      "/USB_D+": [
-        "Signal"
-      ],
-      "/USB_D-": [
-        "Signal"
-      ],
-      "/XTAL1": [
-        "Signal"
-      ],
-      "/XTAL2": [
-        "Signal"
-      ],
-      "/~{RESET}": [
-        "Signal"
-      ],
-      "GND": [
-        "Power"
-      ],
-      "Net-(D1-A)": [
-        "Power"
-      ],
-      "Net-(D3-K)": [
-        "Signal"
-      ],
-      "Net-(D4-K)": [
-        "Signal"
-      ],
-      "Net-(D6-K)": [
-        "Signal"
-      ],
-      "Net-(D7-K)": [
-        "Signal"
-      ],
-      "Net-(F1-Pad2)": [
-        "Power"
-      ],
-      "VBUS": [
-        "Power"
-      ],
-      "VCC": [
-        "Power"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -871,6 +729,14 @@
     [
       "f6bd722c-39eb-40df-bac8-f7b7a0f0fab5",
       "Root"
+    ],
+    [
+      "2d9de1b3-b862-4efd-8454-075d7fbc99d9",
+      "PROG"
+    ],
+    [
+      "c68319d0-f5d3-4cf0-aebb-d2b651c42b0c",
+      "Relay_5V"
     ]
   ],
   "text_variables": {}

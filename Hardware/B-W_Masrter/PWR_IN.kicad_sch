@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "725b0e3f-bd75-442c-bca9-dd0ff0809726")
+	(paper "A4")
+	(title_block
+		(rev "1.0")
+		(company "IRAQ_PCB")
+		(comment 1 "Designed by ENG.Ahmid.Q")
+	)
+	(lib_symbols)
+)
